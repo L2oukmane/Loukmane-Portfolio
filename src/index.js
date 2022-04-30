@@ -1,2 +1,2 @@
 import './style.css';
-import Image from './imgs/loukmane.png';
+/* import Image from './imgs/loukmane.png'; */
