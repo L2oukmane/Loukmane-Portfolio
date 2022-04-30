@@ -77,8 +77,6 @@ npx eslint .
 
 [webpack guides](https://webpack.js.org/guides)
 
-##### from parent source directory
-
 ## License
 
 All source code files are licensed under the permissive MIT license
