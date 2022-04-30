@@ -72,8 +72,6 @@ npx eslint .
 
 ```
 
-##### from parent source directory
-
 ## License
 
 All source code files are licensed under the permissive MIT license
