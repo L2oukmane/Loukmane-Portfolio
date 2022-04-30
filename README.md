@@ -1,13 +1,14 @@
 # LOUKMANE'S PORTFOLIO
 
-> This is a complete version of my portfolio website.
+> This is a complete version of my Portfolio Website.
 
 ![screenshot]()
 
-My goal here is to Build a personal professional portfolio site from scratch, take a look at what i'v built [Live Demo](). 🙂
+My goal here is to Build a Personal Professional Portfolio site from scratch, take a look at what i'v built [Live Demo](). 🙂
 
 ## Built With
 
+- Webpack (webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser).
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
@@ -72,6 +73,10 @@ npx eslint .
 
 ```
 
+###### Guides for getting and validating webpack
+
+[webpack guides](https://webpack.js.org/guides)
+
 ## License
 
 All source code files are licensed under the permissive MIT license
@@ -79,4 +84,4 @@ All source code files are licensed under the permissive MIT license
 
 ## Author
 
-- **Oustani Loukmane** - [github](https://github.com/L2oukmane), [twitter](https://twitter.com/LoukmaneOustani), [linkedin](https://www.linkedin.com/in/loukmane-oustani-221668211/)
+- **Loukmane Oustani** - [github](https://github.com/L2oukmane), [twitter](https://twitter.com/LoukmaneOustani), [linkedin](https://www.linkedin.com/in/loukmane-oustani-221668211/)
