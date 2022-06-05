@@ -2,17 +2,13 @@
 
 > This is a complete version of my Portfolio Website.
 
-![screenshot]()
+![screenshot](/images/por.PNG)
 
-My goal here is to Build a Personal Professional Portfolio site from scratch, take a look at what i'v built [Live Demo](). 🙂
+My goal here is to Build a Personal Professional Portfolio site from scratch, take a look at what i'v built [Live Demo](https://l2oukmane.github.io/Loukmane-Portfolio/). 🙂
 
 ## Built With
 
-<<<<<<< HEAD
 - (HTML/CSS/JavaScript)
-=======
-- Webpack (webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser).
->>>>>>> 5eea2ab7a8b549943f0c103d1adf10f53e97bbf1
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 - Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
