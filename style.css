@@ -166,6 +166,11 @@ img {
   color: var(--second-color);
 }
 
+.letter-color{
+ font-weight: bold;
+  color: var(--first-color);
+}
+
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -334,6 +339,10 @@ img {
 
 .skills__ux {
   width: 85%;
+}
+
+.skills__react{
+  width: 40%;
 }
 
 .skills__img {
