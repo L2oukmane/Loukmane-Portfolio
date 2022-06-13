@@ -54,3 +54,36 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text', {});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img', { delay: 400 });
 sr.reveal('.home__social-icon', { interval: 200 });
 sr.reveal('.skills__data, .work__img, .contact__input', { interval: 200 });
+/* ====== CNATACT FORM SEND ====*/
+const contactForm = document.querySelector('.contact__form');
+
+function formInfo(data) {
+  const storedData = JSON.stringify(data);
+  localStorage.setItem('data', storedData);
+}
+
+function fillData() {
+  const data = JSON.parse(localStorage.getItem('data'));
+  const { name } = contactForm.elements;
+  const { email } = contactForm.elements;
+  const { message } = contactForm.elements;
+  name.value = data.name;
+  email.value = data.email;
+  message.value = data.message;
+}
+
+contactForm.addEventListener('input', () => {
+  const data = {
+    name: document.querySelector('.name__input').value,
+    email: document.querySelector('.email__input').value,
+    message: document.querySelector('.text__input').value,
+  };
+  formInfo(data);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  createProjectCards(Object.values(projects));
+  if (localStorage.getItem('data')) {
+    fillData();
+  }
+});
